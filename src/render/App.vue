@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import CRUDDemo from './components/CRUDDemo.vue'
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" class="logo">
-  <HelloWorld title="Vite + Electron & Esbuild" />
+  <!-- <HelloWorld title="Vite + Electron & Esbuild" /> -->
+  <CRUDDemo />
 </template>
 
 <style>
